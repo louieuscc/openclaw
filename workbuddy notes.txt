@@ -1,0 +1,54 @@
+Openclaw + Workbuddy
+
+1、每日新闻简报命令：
+每天只在本地电脑运行，确保数据隐私安全。
+第一步：浏览器抓取美伊战争当日最新新闻
+-逐一访问以下新闻网站页面：
+cnn.hk.cn
+新浪网
+BBC
+-收到新闻后发至我的邮箱mright83@sina.com
+
+2、Workbuddy每日自动问好命令：
+每天向微信群“XXX”自动发送一个“早”字，并按回车发送。
+
+3、三日天气
+从当日起三天内XXX城市的天气预测，包括气温、湿度、风速。做成彩色数据可视化模式，PDF格式。并把这个天气预报PDF发送给微信用户名为“归棹”的微信用户，注意本地微信的窗口标题是Weixin，按回车发送。
+
+4、播放歌曲
+启动iTunes并播放Aaron Neville的Warm your heart专辑
+
+
+
+核心能力：
+一、本地文件操作：读写/整理/合并/转换Office、PDF、图片等
+
+二、多步骤任务：自动拆解复杂流程，多Agent并行执行
+
+三、兼容OpenClaw：直接使用开源社区技能/插件/工作流
+
+四、多模型切换：混元、DeepSeek、GLM、Kimi、MiniMax
+
+五、远程控制：手机Workbuddy发指令，电脑自动执行
+————————————————
+
+一、常用命令
+1、根据桌面某Excel文件，生成柱状图+分析报告
+2、根据本地某文件，计算环比，生成PPT并排版
+3、将某文件（HTML/Doc/xlsx）转换为PDF格式
+
+邮箱SMTP授权码：198c25b142b3d80d
+
+
+QQ-Bot:
+
+app id: 1903485210
+app secret: eCWbU9aprfFbjdJl
+
+一、安装
+1、在WSL对话框中输入openclaw plugins install @tencent-connect/openclaw-qqbot@latest 开始安装插件
+2、输入openclaw channels add --channel qqbot --token "1903485210:eCWbU9aprfFbjdJl" 绑定当前QQ机器人
+3、输入openclaw gateway restart 重启Openclaw
+
+
+My qq mail:3820525389@qq.com
